@@ -30,6 +30,13 @@ body{
 	background: #eee;
 }
 
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+}
+
 .dropup .dropdown-menu {
   top: auto;
   bottom: 100%;
