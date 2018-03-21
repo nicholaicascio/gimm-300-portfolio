@@ -51,42 +51,6 @@ html{
 #page{
 	margin: 20px;
 }
-
-
-/*
-#logo{
-	width: 40%;
-	margin-top: 5px;
-	font-family: georgia;
-	display: inline-block;
-}
-
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: right;
-	float: right;
-}
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 62px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: teal;
-				color: white;
-			}
-			#nav ul li a:hover{
-				background-color: turquoise;
-				box-shadow: 0px 1px 1px #666;
-			}
-			#nav ul li a:active{ background-color: blue; }
-
-#nav{ float:right; 
-	
- }
-*/
 @media(max-width:750px){
 	#nav{display:none;
 	}
@@ -156,33 +120,20 @@ fieldset[disabled] .btn-navigator.active {
 	#profile{
 	margin-right: 100px;
 	margin-left:100px;
-	}/*
-	#bar{
-		margin-left:300px;
-		margin-right:300px;
-		margin-top:100px;
-		margin-bottom:100px;
 	}
-	#nav{
-		
-		margin-right:300px;
-	}
-	#logo{
-		margin-top:100px;
-		margin-left:300px;
-	}*/
 }
 
 #footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
+	border-top: 1px #ccc solid;
+	margin-top: 10px;
+	padding-bottom: 30px;
 }
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
-	}
+#footer p{
+	text-align: right;
+	/*text-transform: uppercase;*/
+	font-size: 80%;
+	color: grey;
+}
 
 /* multiple styles seperated by a , 
 #content,
