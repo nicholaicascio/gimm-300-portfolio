@@ -1,0 +1,183 @@
+/*
+* multi-line comment
+*/
+p{ line-height: 1em; }
+h1, h2, h3, h4, h5{
+    color: teal;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 2.0em; }
+h2{ font-size: 2.0em; }
+/*
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+*/
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: arial; 
+	font-size: 90%; 
+	line-height: 1.2em; 
+	width: 100%; 
+	margin: 0; 
+	background: #eee;
+}
+
+.dropup .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  left: -100%;
+  margin-bottom: .125rem;
+}
+
+html{
+	overflow-y: scroll;
+}
+
+#page{
+	margin: 20px;
+}
+
+
+/*
+#logo{
+	width: 40%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: teal;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: turquoise;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: blue; }
+
+#nav{ float:right; 
+	
+ }
+*/
+@media(max-width:750px){
+	#nav{display:none;
+	}
+	#logo{width:100%;
+	text-align:center;}
+	#nav-just{text-align: center;
+	width:100%;
+	margin:30px 0;}
+}
+@media(min-width:751px){
+	#nav-just{display:none;}
+}
+
+.btn-navigator { 
+  color: #FFFFFF; 
+  background-color: #00BECC; 
+  border-color: #00EEFF; 
+} 
+ 
+.btn-navigator:hover, 
+.btn-navigator:focus, 
+.btn-navigator:active, 
+.btn-navigator.active, 
+.open .dropdown-toggle.btn-navigator { 
+  color: #FFFFFF; 
+  background-color: #39D499; 
+  border-color: #00EEFF; 
+} 
+ 
+.btn-navigator:active, 
+.btn-navigator.active, 
+.open .dropdown-toggle.btn-navigator { 
+  background-image: none; 
+} 
+ 
+.btn-navigator.disabled, 
+.btn-navigator[disabled], 
+fieldset[disabled] .btn-navigator, 
+.btn-navigator.disabled:hover, 
+.btn-navigator[disabled]:hover, 
+fieldset[disabled] .btn-navigator:hover, 
+.btn-navigator.disabled:focus, 
+.btn-navigator[disabled]:focus, 
+fieldset[disabled] .btn-navigator:focus, 
+.btn-navigator.disabled:active, 
+.btn-navigator[disabled]:active, 
+fieldset[disabled] .btn-navigator:active, 
+.btn-navigator.disabled.active, 
+.btn-navigator[disabled].active, 
+fieldset[disabled] .btn-navigator.active { 
+  background-color: #00BECC; 
+  border-color: #00EEFF; 
+} 
+ 
+.btn-navigator .badge { 
+  color: #00BECC; 
+  background-color: #FFFFFF; 
+}
+
+
+
+@media(min-width:1250px){
+	#content{
+	margin-right:300px;
+	margin-left:300px;
+	}
+	#profile{
+	margin-right: 100px;
+	margin-left:100px;
+	}/*
+	#bar{
+		margin-left:300px;
+		margin-right:300px;
+		margin-top:100px;
+		margin-bottom:100px;
+	}
+	#nav{
+		
+		margin-right:300px;
+	}
+	#logo{
+		margin-top:100px;
+		margin-left:300px;
+	}*/
+}
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+/* multiple styles seperated by a , 
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+*/
