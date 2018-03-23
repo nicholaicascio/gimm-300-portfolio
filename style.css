@@ -27,7 +27,7 @@ body{
 	line-height: 1.2em; 
 	width: 100%; 
 	margin: 0; 
-	background: #eee;
+	background-color:bisque;
 }
 
 .tales {
@@ -50,19 +50,32 @@ html{
 
 #page{
 	margin: 20px;
+	
 }
-@media(max-width:750px){
-	#nav{display:none;
+
+@media(min-width:1250px){
+	#content{
+	margin-right:300px;
+	margin-left:300px;
 	}
-	#logo{width:100%;
-	text-align:center;}
-	#nav-just{text-align: center;
-	width:100%;
-	margin:30px 0;}
+	#profile{
+	margin-right: 100px;
+	margin-left:100px;
+	}
+	.homeCards{
+		margin: 10%;
+	}
 }
-@media(min-width:751px){
-	#nav-just{display:none;}
+
+.homeCards:hover img{
+	opacity: .5;
 }
+/*@media(min-width: 580px) and (max-width: 750px){
+	.homecards{
+		width:100%;
+		
+	}
+}*/
 
 .btn-navigator { 
   color: #FFFFFF; 
@@ -112,16 +125,7 @@ fieldset[disabled] .btn-navigator.active {
 
 
 
-@media(min-width:1250px){
-	#content{
-	margin-right:300px;
-	margin-left:300px;
-	}
-	#profile{
-	margin-right: 100px;
-	margin-left:100px;
-	}
-}
+
 
 #footer{
 	border-top: 1px #ccc solid;
